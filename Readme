@@ -1,0 +1,53 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+
+
+        //FirstEx
+        for (int i = 1; i <= 100; i++) {
+            if (i % 2 == 0) {
+                System.out.println(i + " the num is even");
+            } else {
+                System.out.println(i);
+            }
+        }
+
+        //SecondEx
+        for (int j = 1; j <= 100; j++) {
+
+            if (j % 2 == 0) {
+                continue;
+            }
+            System.out.println(j);
+        }
+
+        //ThirdEx
+        for (int x = 1; x <= 10; x++) {
+
+            if (x == 4) {
+                break;
+            }
+            System.out.println(x);
+
+        }
+
+        //FourthEx
+
+        String name = "danah";
+        for (int y = 0; y < name.length(); y++) {
+            System.out.println(name.charAt(y));
+
+        }
+
+        //FifthEx
+
+        String name2 = "danah";
+        for (int w = name2.length() - 1; w >= 0; w--) {
+            System.out.println(name2.charAt(w));
+
+        }
+
+    }
+}
